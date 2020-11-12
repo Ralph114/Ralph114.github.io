@@ -1,13 +1,10 @@
-#card-deck{ 
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-gap: 2vw;
-    
-    }
-#card-deck > div{
-    
-    padding: 50px;
-    height: 50px;
+.card {
     background: blue;
-    
-  }
+    float: left;
+    height: 24vw;
+    margin: 1%;
+    width: 23%;
+}
+div {
+    display: block;
+}

@@ -12,8 +12,8 @@ for (let index = 0; index < numberCards; index++) {
 
 
 
-
 function flipp(event){
     this.classList.toggle('flipped')
  
 }
+//ist das flipp

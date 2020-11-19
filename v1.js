@@ -1,4 +1,5 @@
 const numberCards=16
+let openCards= []
 
 let p=document.querySelectorAll('.deck')
 for (let index = 0; index < numberCards; index++) {
@@ -13,7 +14,12 @@ for (let index = 0; index < numberCards; index++) {
 
 
 function flipp(event){
-    this.classList.toggle('flipped')
+    if (!this.classList.contains('found')) {
+        openCard(this)
+    }
+    //this.classList.toggle('flipped')
  
 }
-//ist das flipp
+function openCard(o){
+    alert("open")
+}

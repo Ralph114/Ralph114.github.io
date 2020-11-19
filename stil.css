@@ -27,3 +27,9 @@ h1{
 body{
     background-color: mediumslateblue;
 }
+.flipped{
+    background-color: blue;
+}
+.found{
+    background-color: red;
+}

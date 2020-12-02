@@ -1,3 +1,18 @@
+var startTime = Math.floor(Date.now() / 1000)
+function startTimeCounter(){
+    var now = Math.floor(Date.now() / 1000)
+    var diff = now - startTime
+    var m = Math.floor(diff / 60)
+    var s = Math.floor(diff % 60)
+    m = checkTime(m)
+    s = checkTime(s)
+    document.getElementById("County").innerHTML = m+ ":" +s
+    if (founded != 16) {
+        var t = setTimeout(startTimeCounter, 500)
+
+document.getElementById("County").innerHTML = "00:00"
+
+
 function buildCards() {
     const container = document.querySelector("#card-deck");
     for (let i = 0; i < 16; i++) {

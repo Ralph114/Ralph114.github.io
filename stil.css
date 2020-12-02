@@ -54,8 +54,8 @@ body {
   
   .card-flipped {
     /* colors */
-    background-color: #e37a12;
-    color: #ffc78f;
+    background-color: #e31212;
+    color: #ffffff;
   
     /* shadow */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);

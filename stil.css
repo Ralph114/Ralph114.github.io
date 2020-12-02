@@ -1,6 +1,6 @@
 body {
     /* colors/fonts */
-    background-color: #60688d;
+    background-color: #0d1849;
     font-family: monospace;
     font-size: 3.5vh;
     font-weight: bold;
@@ -20,8 +20,8 @@ body {
     margin: 1vh 0vh 1vh 1vh;
   
     /* colors/design */
-    color: #2f3d74;
-    background-color: #858ba7;
+    color: #1d1715;
+    background-color: #1a8a3f;
     border-radius: 15px;
   }
   

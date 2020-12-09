@@ -11,14 +11,14 @@ function flipCard() {
   this.classList.add('flip');
 
   if (!hasFlippedCard) {
-    // first click
+    
     hasFlippedCard = true;
     firstCard = this;
 
     return;
   }
 
-  // second click
+  
   secondCard = this;
 
   checkForMatch();
